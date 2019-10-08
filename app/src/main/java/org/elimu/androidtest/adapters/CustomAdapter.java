@@ -50,6 +50,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.CustomView
     @Override
     public void onBindViewHolder(CustomViewHolder holder, int position) {
         holder.txtRepoName.setText(dataList.get(position).getName());
+        holder.txtCreatedAt.setText(dataList.get(position).getCreatedAt());
 
 
     }

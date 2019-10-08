@@ -1,80 +1,305 @@
 package org.elimu.androidtest.model;
 
-public class GithubReposModel {
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
+public class GithubReposModel {
+    @SerializedName("id")
+    @Expose
     private Integer id;
+    @SerializedName("node_id")
+    @Expose
     private String nodeId;
+    @SerializedName("name")
+    @Expose
     private String name;
+    @SerializedName("full_name")
+    @Expose
     private String fullName;
+    @SerializedName("private")
+    @Expose
     private Boolean _private;
+    @SerializedName("owner")
+    @Expose
     private Owner owner;
+    @SerializedName("html_url")
+    @Expose
     private String htmlUrl;
+    @SerializedName("description")
+    @Expose
     private Object description;
+    @SerializedName("fork")
+    @Expose
     private Boolean fork;
+    @SerializedName("url")
+    @Expose
     private String url;
+    @SerializedName("forks_url")
+    @Expose
     private String forksUrl;
+    @SerializedName("keys_url")
+    @Expose
     private String keysUrl;
+    @SerializedName("collaborators_url")
+    @Expose
     private String collaboratorsUrl;
+    @SerializedName("teams_url")
+    @Expose
     private String teamsUrl;
+    @SerializedName("hooks_url")
+    @Expose
     private String hooksUrl;
+    @SerializedName("issue_events_url")
+    @Expose
     private String issueEventsUrl;
+    @SerializedName("events_url")
+    @Expose
     private String eventsUrl;
+    @SerializedName("assignees_url")
+    @Expose
     private String assigneesUrl;
+    @SerializedName("branches_url")
+    @Expose
     private String branchesUrl;
+    @SerializedName("tags_url")
+    @Expose
     private String tagsUrl;
+    @SerializedName("blobs_url")
+    @Expose
     private String blobsUrl;
+    @SerializedName("git_tags_url")
+    @Expose
     private String gitTagsUrl;
+    @SerializedName("git_refs_url")
+    @Expose
     private String gitRefsUrl;
+    @SerializedName("trees_url")
+    @Expose
     private String treesUrl;
+    @SerializedName("statuses_url")
+    @Expose
     private String statusesUrl;
+    @SerializedName("languages_url")
+    @Expose
     private String languagesUrl;
+    @SerializedName("stargazers_url")
+    @Expose
     private String stargazersUrl;
+    @SerializedName("contributors_url")
+    @Expose
     private String contributorsUrl;
+    @SerializedName("subscribers_url")
+    @Expose
     private String subscribersUrl;
+    @SerializedName("subscription_url")
+    @Expose
     private String subscriptionUrl;
+    @SerializedName("commits_url")
+    @Expose
     private String commitsUrl;
+    @SerializedName("git_commits_url")
+    @Expose
     private String gitCommitsUrl;
+    @SerializedName("comments_url")
+    @Expose
     private String commentsUrl;
+    @SerializedName("issue_comment_url")
+    @Expose
     private String issueCommentUrl;
+    @SerializedName("contents_url")
+    @Expose
     private String contentsUrl;
+    @SerializedName("compare_url")
+    @Expose
     private String compareUrl;
+    @SerializedName("merges_url")
+    @Expose
     private String mergesUrl;
+    @SerializedName("archive_url")
+    @Expose
     private String archiveUrl;
+    @SerializedName("downloads_url")
+    @Expose
     private String downloadsUrl;
+    @SerializedName("issues_url")
+    @Expose
     private String issuesUrl;
+    @SerializedName("pulls_url")
+    @Expose
     private String pullsUrl;
+    @SerializedName("milestones_url")
+    @Expose
     private String milestonesUrl;
+    @SerializedName("notifications_url")
+    @Expose
     private String notificationsUrl;
+    @SerializedName("labels_url")
+    @Expose
     private String labelsUrl;
+    @SerializedName("releases_url")
+    @Expose
     private String releasesUrl;
+    @SerializedName("deployments_url")
+    @Expose
     private String deploymentsUrl;
+    @SerializedName("created_at")
+    @Expose
     private String createdAt;
+    @SerializedName("updated_at")
+    @Expose
     private String updatedAt;
+    @SerializedName("pushed_at")
+    @Expose
     private String pushedAt;
+    @SerializedName("git_url")
+    @Expose
     private String gitUrl;
+    @SerializedName("ssh_url")
+    @Expose
     private String sshUrl;
+    @SerializedName("clone_url")
+    @Expose
     private String cloneUrl;
+    @SerializedName("svn_url")
+    @Expose
     private String svnUrl;
+    @SerializedName("homepage")
+    @Expose
     private Object homepage;
+    @SerializedName("size")
+    @Expose
     private Integer size;
+    @SerializedName("stargazers_count")
+    @Expose
     private Integer stargazersCount;
+    @SerializedName("watchers_count")
+    @Expose
     private Integer watchersCount;
+    @SerializedName("language")
+    @Expose
     private String language;
+    @SerializedName("has_issues")
+    @Expose
     private Boolean hasIssues;
+    @SerializedName("has_projects")
+    @Expose
     private Boolean hasProjects;
+    @SerializedName("has_downloads")
+    @Expose
     private Boolean hasDownloads;
+    @SerializedName("has_wiki")
+    @Expose
     private Boolean hasWiki;
+    @SerializedName("has_pages")
+    @Expose
     private Boolean hasPages;
+    @SerializedName("forks_count")
+    @Expose
     private Integer forksCount;
+    @SerializedName("mirror_url")
+    @Expose
     private Object mirrorUrl;
+    @SerializedName("archived")
+    @Expose
     private Boolean archived;
+    @SerializedName("disabled")
+    @Expose
     private Boolean disabled;
+    @SerializedName("open_issues_count")
+    @Expose
     private Integer openIssuesCount;
+    @SerializedName("license")
+    @Expose
     private Object license;
+    @SerializedName("forks")
+    @Expose
     private Integer forks;
+    @SerializedName("open_issues")
+    @Expose
     private Integer openIssues;
+    @SerializedName("watchers")
+    @Expose
     private Integer watchers;
+    @SerializedName("default_branch")
+    @Expose
     private String defaultBranch;
+
+
+    public GithubReposModel(Integer id, String nodeId, String name, String fullName, Boolean _private, Owner owner, String htmlUrl, Object description, Boolean fork, String url, String forksUrl, String keysUrl, String collaboratorsUrl, String teamsUrl, String hooksUrl, String issueEventsUrl, String eventsUrl, String assigneesUrl, String branchesUrl, String tagsUrl, String blobsUrl, String gitTagsUrl, String gitRefsUrl, String treesUrl, String statusesUrl, String languagesUrl, String stargazersUrl, String contributorsUrl, String subscribersUrl, String subscriptionUrl, String commitsUrl, String gitCommitsUrl, String commentsUrl, String issueCommentUrl, String contentsUrl, String compareUrl, String mergesUrl, String archiveUrl, String downloadsUrl, String issuesUrl, String pullsUrl, String milestonesUrl, String notificationsUrl, String labelsUrl, String releasesUrl, String deploymentsUrl, String createdAt, String updatedAt, String pushedAt, String gitUrl, String sshUrl, String cloneUrl, String svnUrl, Object homepage, Integer size, Integer stargazersCount, Integer watchersCount, String language, Boolean hasIssues, Boolean hasProjects, Boolean hasDownloads, Boolean hasWiki, Boolean hasPages, Integer forksCount, Object mirrorUrl, Boolean archived, Boolean disabled, Integer openIssuesCount, Object license, Integer forks, Integer openIssues, Integer watchers, String defaultBranch) {
+        this.id = id;
+        this.nodeId = nodeId;
+        this.name = name;
+        this.fullName = fullName;
+        this._private = _private;
+        this.owner = owner;
+        this.htmlUrl = htmlUrl;
+        this.description = description;
+        this.fork = fork;
+        this.url = url;
+        this.forksUrl = forksUrl;
+        this.keysUrl = keysUrl;
+        this.collaboratorsUrl = collaboratorsUrl;
+        this.teamsUrl = teamsUrl;
+        this.hooksUrl = hooksUrl;
+        this.issueEventsUrl = issueEventsUrl;
+        this.eventsUrl = eventsUrl;
+        this.assigneesUrl = assigneesUrl;
+        this.branchesUrl = branchesUrl;
+        this.tagsUrl = tagsUrl;
+        this.blobsUrl = blobsUrl;
+        this.gitTagsUrl = gitTagsUrl;
+        this.gitRefsUrl = gitRefsUrl;
+        this.treesUrl = treesUrl;
+        this.statusesUrl = statusesUrl;
+        this.languagesUrl = languagesUrl;
+        this.stargazersUrl = stargazersUrl;
+        this.contributorsUrl = contributorsUrl;
+        this.subscribersUrl = subscribersUrl;
+        this.subscriptionUrl = subscriptionUrl;
+        this.commitsUrl = commitsUrl;
+        this.gitCommitsUrl = gitCommitsUrl;
+        this.commentsUrl = commentsUrl;
+        this.issueCommentUrl = issueCommentUrl;
+        this.contentsUrl = contentsUrl;
+        this.compareUrl = compareUrl;
+        this.mergesUrl = mergesUrl;
+        this.archiveUrl = archiveUrl;
+        this.downloadsUrl = downloadsUrl;
+        this.issuesUrl = issuesUrl;
+        this.pullsUrl = pullsUrl;
+        this.milestonesUrl = milestonesUrl;
+        this.notificationsUrl = notificationsUrl;
+        this.labelsUrl = labelsUrl;
+        this.releasesUrl = releasesUrl;
+        this.deploymentsUrl = deploymentsUrl;
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
+        this.pushedAt = pushedAt;
+        this.gitUrl = gitUrl;
+        this.sshUrl = sshUrl;
+        this.cloneUrl = cloneUrl;
+        this.svnUrl = svnUrl;
+        this.homepage = homepage;
+        this.size = size;
+        this.stargazersCount = stargazersCount;
+        this.watchersCount = watchersCount;
+        this.language = language;
+        this.hasIssues = hasIssues;
+        this.hasProjects = hasProjects;
+        this.hasDownloads = hasDownloads;
+        this.hasWiki = hasWiki;
+        this.hasPages = hasPages;
+        this.forksCount = forksCount;
+        this.mirrorUrl = mirrorUrl;
+        this.archived = archived;
+        this.disabled = disabled;
+        this.openIssuesCount = openIssuesCount;
+        this.license = license;
+        this.forks = forks;
+        this.openIssues = openIssues;
+        this.watchers = watchers;
+        this.defaultBranch = defaultBranch;
+    }
 
     public Integer getId() {
         return id;
